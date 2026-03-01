@@ -7,6 +7,3 @@ variable "azs" {}
 variable "public_cidrs" {}
 variable "private_cidrs" {}
 variable "sg-name" {}
-variable "key-name" {
-  
-}

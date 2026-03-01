@@ -4,7 +4,7 @@ resource "aws_instance" "ubuntu" {
   key_name        = aws_key_pair.madhu.key_name 
   subnet_id       = aws_subnet.public-subnets.0.id
   security_groups = ["${aws_security_group.prod-sg.id}"]
-  depends_on = [ aws_key_pair.suresh ]
+  depends_on = [ aws_key_pair.madhu ]
   tags = {
     Name = "${var.ec2-tags}-New"
   }
