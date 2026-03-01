@@ -1,10 +1,9 @@
 vpc-cidr      = "10.0.0.0/16"
-vpc-name      = "hunter007-Prod"
-ami           = "ami-0866a3c8686eaeeba" # us-east-1 Ubuntu AMI
-ec2-tags      = "Hunter007-Prod"
+vpc-name      = "Youtube-Prod"
+ami           = "ami-0b6c6ebed2801a5cb" # us-east-1 Ubuntu AMI
+ec2-tags      = "Youtube-Prod"
 centos_ami    = "ami-0df2a11dd1fe1f8e3"
 public_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
 private_cidrs = ["10.0.10.0/24", "10.0.20.0/24"]
 azs           = ["us-east-1a", "us-east-1b"]
 sg-name = "hunter007-sg"
-key-name = "hunter007"
